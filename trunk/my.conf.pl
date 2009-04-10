@@ -13,6 +13,8 @@ copy => '',
 insubdir => 1,
 convsuffix => '_report.html',
 txtreportsuffix => '_report.html',
-reportstyletxt => 'XML,HIT',
+reportstyletxt => 'XSLT=/Applications/callas\ pdfToolbox\ Server\ 4/cli/var/Reports/XSLT/compacthtml.xslt',
+reportstylepdf => 'LAYER',
+debug => 1
 }
 
