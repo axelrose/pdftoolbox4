@@ -169,11 +169,11 @@ optionally into the same directory:
 - patch-txtreport.pl (executes textual corrections to the text report)
 - xsltransform.pl (calls "xsltproc" for transformation of the XML report
   to e.g. HTML)
-- pdfcheck.postprocess.pl (you may program your own processing after
-  "pdfcheck.pl" has finished its task)
+- pdftoolbox.postprocess.pl (you may program your own processing after
+  "pdftoolbox.pl" has finished its task)
 
 The optional scripts are activated within the configuration file
-"pdfcheck.conf.pl".
+"pdftoolbox.conf.pl".
 
 You may use the supplied "my.conf.pl" file to have hotfolder specific
 configurations. Simply copy this file or any other file with the suffix
