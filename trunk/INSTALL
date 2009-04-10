@@ -12,18 +12,18 @@ ein Unterordner im ausgewählten Skripte Verzeichnis.
 
 unbedingt notwendig sind:
 
-- pdfcheck.pl (Hauptskript zur Wandlung/Prüfung)
-- pdfcheck.conf.pl (Konfiguration von "pdfcheck.pl")
+- pdftoolbox.pl (Hauptskript zur Wandlung/Prüfung)
+- pdftoolbox.conf.pl (Konfiguration von "pdftoolbox.pl")
 
 optional in das gleiche Verzeichnis installierbar:
 
 - patch-txtreport.pl (nimmt textuelle Korrekturen in Text Reports vor)
 - xsltransform.pl (ruft "xsltproc" zur Wandlung eines XML Reports nach
   z.B. HTML auf)
-- pdfcheck.postprocess.pl (zur Programmierung einer eigenen Nachbehandlung
-  des Ergebnisses nach Beendigung von "pdfcheck.pl")
+- pdftoolbox.postprocess.pl (zur Programmierung einer eigenen Nachbehandlung
+  des Ergebnisses nach Beendigung von "pdftoolbox.pl")
 
-Die optionalen Skripte werden in der Konfigurationsdatei "pdfcheck.conf.pl"
+Die optionalen Skripte werden in der Konfigurationsdatei "pdftoolbox.conf.pl"
 aktiviert.
 
 Die mitgelieferte Beispiel Konfigurationsdatei "my.conf.pl" kann benutzt
@@ -161,8 +161,8 @@ within the chosen scripts folder.
 
 essential are these:
 
-- pdfcheck.pl (main script for conversion/checks)
-- pdfcheck.conf.pl (configuration for "pdfcheck.pl")
+- pdftoolbox.pl (main script for conversion/checks)
+- pdftoolbox.conf.pl (configuration for "pdfcheck.pl")
 
 optionally into the same directory:
 
