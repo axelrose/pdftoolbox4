@@ -18,7 +18,7 @@ use FindBin;
 use Carp;
 
 my $DEBUG = 0;
-my $Id = '$Id:$';
+my $Id = '$Id$';
 
 local $| = 1; # unbuffered STDOUT
 local $/ = ""; # slurp input in one go
@@ -967,6 +967,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 =head1 VERSION
 
-	$Id:$'
+	$Id$'
 
 =cut
