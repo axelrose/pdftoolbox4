@@ -18,7 +18,7 @@ use FindBin;
 use Carp;
 
 my $DEBUG = 0;
-my $Id = '$Id: pdftoolbox.pl ??? 2009-04-09 peter.kleinheider $';
+my $Id = '$Id:$';
 
 local $| = 1; # unbuffered STDOUT
 local $/ = ""; # slurp input in one go
@@ -967,6 +967,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 =head1 VERSION
 
-	$Id: pdftoolbox.pl 102 2009-04-09 peter.kleinheider $'
+	$Id:$'
 
 =cut
