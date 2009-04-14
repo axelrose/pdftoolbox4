@@ -18,7 +18,7 @@ use FindBin;
 use Carp;
 
 my $DEBUG = 0;
-my $Id = '$Id: pdftoolbox.pl 102 2009-04-09 peter.kleinheider $';
+my $Id = '$Id: pdftoolbox.pl ??? 2009-04-09 peter.kleinheider $';
 
 local $| = 1; # unbuffered STDOUT
 local $/ = ""; # slurp input in one go
